@@ -26,6 +26,8 @@
   "print_style_section",
   "print_style",
   "print_style_preview",
+  "column_break_tgld",
+  "print_logo",
   "section_break_8",
   "font",
   "font_size"
@@ -170,13 +172,22 @@
    "fieldname": "pdf_page_width",
    "fieldtype": "Float",
    "label": "PDF Page Width (in mm)"
+  },
+  {
+   "fieldname": "column_break_tgld",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "print_logo",
+   "fieldtype": "Attach Image",
+   "label": "Print Lgo"
   }
  ],
  "icon": "fa fa-cog",
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2023-05-30 14:55:25.740691",
+ "modified": "2025-04-05 00:36:52.952465",
  "modified_by": "Administrator",
  "module": "Printing",
  "name": "Print Settings",
